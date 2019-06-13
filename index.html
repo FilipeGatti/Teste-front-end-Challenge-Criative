@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="scripts/css.css" rel="stylesheet" />
+    <title>The Challenge Criative</title>
+  </head>
+
+   <body>
+      <div class="container-fluid">
+          <div class="row" id="searchContainer">
+              <div class="col">
+                  <form id="frmVideoSearch">
+                      <div class="form-group">
+                          <label for="txtSearch">Buscar:</label>
+                          <input type="text" class="form-control" id="txtSearch" placeholder="Pesquisar:">
+                          <button type="submit" class="btn btn-primary btn-block">Buscar</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="row d-none" id="searchResultsContainer">
+              <div class="col">
+
+              </div>
+          </div>
+          <div class="row d-none" id="searchWithNoResultsContainer">
+              <div class="well">Sua busca não retornou nenhum resultado!</div>
+          </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="scripts/app.js"></script>
+      <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  </body>
+</html>
